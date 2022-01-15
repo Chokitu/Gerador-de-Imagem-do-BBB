@@ -1,0 +1,83 @@
+html, body {
+    height: 100%;
+    background-image: url(https://colorate.azurewebsites.net/SwatchColor/F2F2F2);
+    background-repeat: no-repeat;
+    background-size: 100%auto;
+    height: 100%;
+    width: 100%;
+  }
+  
+  #bbbrobo{
+      margin-left: 1800px;
+  }
+  #info{
+    text-shadow: 5px 5px 10px #d59595;
+    font-weight: bold;
+
+
+
+}
+  
+  #formulario {
+      
+    height: 100%;
+    display: flex;
+    position: static;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1px;
+    background-color: #f2f2f2;
+    padding: 0px;
+
+    animation: formulario 2s ease 0s 1 normal forwards;
+    
+    
+  }
+  @keyframes formulario {
+    0% {
+      opacity: 0;
+      transform: scale(2.2);
+    }
+  
+    80% {
+      opacity: 0.5;
+      transform: scale(1.2);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: scale(1.0);
+    }
+  }
+
+  
+  #enviar {
+    width: 600px;
+    height: 50px;
+    font-size: 14px;
+    background: #069;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    color: #FFF;
+    margin-top: 10px;
+  }
+
+
+  #foto{
+    text-align:center;
+    margin-top: 35px;
+    animation: myAnim 1s ease 0s 1 normal forwards;
+  }
+  @keyframes myAnim {
+    0% {
+      opacity: 0;
+      transform: rotate(-540deg) scale(0);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: rotate(0) scale(1);
+    }
+  }

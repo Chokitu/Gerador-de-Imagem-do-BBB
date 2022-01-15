@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<title>Gerador BBB22</title>
+<nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="https://logodownload.org/wp-content/uploads/2013/12/rede-globo-logo-0.png" width="60" height="60" alt="">
+    </a>
+        <a class="navbar-brand" href="contato">
+      <img src="https://www.pngall.com/wp-content/uploads/2016/07/Twitter-Download-PNG.png" width="60" height="60" alt="">
+    </a>
+  </nav>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/main.css') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <h1 id = info>Digite suas informações</h1>
+    <p>Preencha suas informações e envie-nos uma foto sua para receber sua foto customizada de anúncio no BBB</p>
+    <img id='bbbrobo' width ='100' height='90' src =https://static.wixstatic.com/media/5ed07b_21f96cbbe0484a258719492f1e4575f0~mv2.png/v1/fill/w_606,h_352,al_c,q_85,usm_0.66_1.00_0.01/robbb-laranja-tchau.webp>
+    <form method=post enctype=multipart/form-data id = formulario>
+        <div class="form-group">
+        <label for="nome">Nome</label>
+        <input type="text" class="form-control" name="nome" id="nome">
+        </div>
+        <div class="form-group">
+        <label for="idade">Idade</label>
+        <input type="text" class="form-control"  name="idade" id="idade">
+        </div>
+        <div class="form-group">
+        <label for="profissao">Profissão</label>
+        <input type="text" class="form-control"  name="profissao" id="profissao">
+        </div>
+        <div class="form-group">
+        <label for="cidade">Cidade</label>
+        <input type="text"class="form-control"  name="cidade" id="cidade">
+        </div>
+        <input type=file name=file> 
+        <input type=submit value=Upload id=enviar> </form>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>

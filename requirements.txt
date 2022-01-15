@@ -1,0 +1,11 @@
+Flask==1.1.2
+flask_bootstrap==3.3.7.1
+Flask_Bootstrap4==4.0.2
+Flask_WTF==1.0.0
+numpy==1.22.0
+opencv_python==4.5.3.56
+Pillow==9.0.0
+rembg==1.0.31
+Werkzeug==2.0.2
+WTForms==3.0.1
+gunicorn
